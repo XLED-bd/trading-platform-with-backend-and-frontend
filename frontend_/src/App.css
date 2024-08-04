@@ -1,0 +1,183 @@
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для страниц */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+div.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+div.product h2 {
+    color: #555;
+}
+
+div.product p {
+    color: #777;
+}
+
+div.product a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+div.product a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для формы входа */
+form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Фиксированная ширина для всех карточек */
+    text-align: center;
+}
+
+.product-item h2 {
+    color: #555;
+}
+
+.product-item p {
+    color: #777;
+}
+
+.product-item a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.product-item a:hover {
+    text-decoration: underline;
+}
+
+
+.profile {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
+
+
+.review-list {
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.review-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.review-item h2 {
+    color: #555;
+}
+
+.review-item p {
+    color: #777;
+}
+
+.review-item a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.review-item a:hover {
+    text-decoration: underline;
+}
